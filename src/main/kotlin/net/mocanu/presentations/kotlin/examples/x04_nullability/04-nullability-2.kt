@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 
     // [ ] get/set completion (kitchen vs livingRoom)
     // [ ] null-safe de-referencing operator (kitchen sink color)
-    //val sinkColor: String? =
+    // val sinkColor: String? =
 
     // [ ] show Java alternative
                                                                                                                                                                                                                                                 val sinkColorLikeInJava: String?
