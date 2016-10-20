@@ -7,6 +7,11 @@ fun main(args: Array<String>) {
         println(number)
     }
 
+    // [ ] loop with index
+    for ((index, number) in numbers.withIndex()) {
+        println("$index ==> $number")
+    }
+
     // [ ] destructuring Map.Entry
     val numberNames = mapOf(
             1 to "one",
