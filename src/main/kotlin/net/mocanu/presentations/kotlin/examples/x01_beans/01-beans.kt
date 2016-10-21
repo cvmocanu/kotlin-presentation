@@ -11,8 +11,8 @@ class Person(val name    : String,
 fun main(args: Array<String>) {
     // [ ] named parameters
     // [ ] default values (children)
-    val personInstantiatedLikeInJava   = Person("George Washington", true, 53)
-    val personInstantiatedLikeInKotlin = Person(name = "George Washington", male = true, age = 53)
+    val personInstantiatedLikeInJava  : Person = Person("George Washington", true, 53)
+    val personInstantiatedLikeInKotlin: Person = Person(name = "George Washington", male = true, age = 53)
 
     // [ ] explain: type inference
     // [ ] caution: put the type manually if it's not clear (e.g. you assign the result of calling a method)
