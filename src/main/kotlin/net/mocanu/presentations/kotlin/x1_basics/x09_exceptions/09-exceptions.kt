@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x09_exceptions
+package net.mocanu.presentations.kotlin.x1_basics.x09_exceptions
 
 import org.apache.commons.io.IOUtils
 import org.apache.commons.io.input.AutoCloseInputStream

@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x05_collections
+package net.mocanu.presentations.kotlin.x1_basics.x05_collections
 
 fun main(args: Array<String>) {
     // [ ] factory methods

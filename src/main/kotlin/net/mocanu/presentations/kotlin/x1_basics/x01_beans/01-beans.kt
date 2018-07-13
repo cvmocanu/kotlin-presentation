@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x01_beans
+package net.mocanu.presentations.kotlin.x1_basics.x01_beans
 
 // [ ] explain beans (getters + setters)
 // [ ] explain "val" vs "var"

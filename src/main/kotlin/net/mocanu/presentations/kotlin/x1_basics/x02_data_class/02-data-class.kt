@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x02_data_class
+package net.mocanu.presentations.kotlin.x1_basics.x02_data_class
 
 // [ ] explain data classes
 data class Person(val name: String,

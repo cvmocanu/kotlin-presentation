@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x07_when
+package net.mocanu.presentations.kotlin.x1_basics.x07_when
 
 fun main(args: Array<String>) {
     val number = 15

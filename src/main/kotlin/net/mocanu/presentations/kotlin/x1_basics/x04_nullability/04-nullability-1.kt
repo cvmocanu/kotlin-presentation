@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x04_nullability
+package net.mocanu.presentations.kotlin.x1_basics.x04_nullability
 
 fun main(args: Array<String>) {
     val nullableName: String? = getName()

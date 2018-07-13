@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x06_loops
+package net.mocanu.presentations.kotlin.x1_basics.x06_loops
 
 fun main(args: Array<String>) {
     // [ ] for with "in" operator (must implement iterator())

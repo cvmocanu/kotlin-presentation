@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x03_string_templates
+package net.mocanu.presentations.kotlin.x1_basics.x03_string_templates
 
 fun main(args: Array<String>) {
     val name = args[0]

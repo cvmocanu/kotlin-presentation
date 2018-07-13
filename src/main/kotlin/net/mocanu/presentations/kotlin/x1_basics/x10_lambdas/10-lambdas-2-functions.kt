@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x10_lambdas
+package net.mocanu.presentations.kotlin.x1_basics.x10_lambdas
 
 import java.util.concurrent.locks.Lock
 import java.util.concurrent.locks.ReentrantLock

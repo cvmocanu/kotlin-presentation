@@ -1,4 +1,4 @@
-package net.mocanu.presentations.kotlin.examples.x10_lambdas
+package net.mocanu.presentations.kotlin.x1_basics.x10_lambdas
 
 fun main(args: Array<String>) {
     val colors = listOf("yellow", "green", "cyan", "red", "crimson")
