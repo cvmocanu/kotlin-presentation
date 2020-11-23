@@ -4,15 +4,11 @@
 *.ipr
 *.iml
 atlassian-ide-plugin.xml
+out/
 
-# ignore Eclipse project files
-.classpath
-.project
-.settings
-.springBeans
-
-# exclude maven target directories
-target/
+# Gradle
+.gradle/
+build/
 
 # Mac
 .DS_Store
@@ -22,6 +18,3 @@ target/
 
 # Log files
 *.log
-
-# Vagrant
-.vagrant/

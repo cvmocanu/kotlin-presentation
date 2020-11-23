@@ -1,7 +1,5 @@
 package net.mocanu.presentations.kotlin.x2_dsl
 
-import ch.qos.logback.classic.spi.ThrowableProxyUtil.indent
-
 data class Node(val title: String,
                 val children: List<Node> = emptyList())
 
