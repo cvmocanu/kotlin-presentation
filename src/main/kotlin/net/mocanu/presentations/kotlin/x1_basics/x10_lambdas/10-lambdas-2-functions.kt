@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock
 
 var name = ""
 val nameLock = ReentrantLock()
-fun main(args: Array<String>) {
+fun main() {
 
     // [ ] explain: last lambda & parenthesis
     withLock(nameLock) {

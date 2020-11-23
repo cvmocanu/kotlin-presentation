@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x1_basics.x06_loops
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] for with "in" operator (must implement iterator())
     val numbers = listOf(1, 2, 3, 5, 8, 13)
     for (number in numbers) {

@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x2_dsl
 
-fun main(args: Array<String>) {
+fun main() {
     val numbers = listOf(1, 4, 3, 7, 9, 5, 8)
 
     // [ ] write findFirst(list, lambda) that returns the first item from the list, or null if not found

@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x1_basics.x04_nullability
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] explain: avoid nulls as much as possible
     val house = House(
             kitchen = Room(

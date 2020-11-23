@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock
 var name = ""
 val nameLock = ReentrantLock()
 
-fun main(args: Array<String>) {
+fun main() {
 
     // [ ] explain: last lambda & parenthesis
     // [ ] note: it looks like a language construct, but it's a normal function

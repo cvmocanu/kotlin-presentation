@@ -8,7 +8,7 @@ class Person(val name    : String,
              var age     : Int,
              val children: List<Person> = listOf())
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] named parameters
     // [ ] default values (children)
     val personInstantiatedLikeInJava  : Person = Person("George Washington", true, 53)

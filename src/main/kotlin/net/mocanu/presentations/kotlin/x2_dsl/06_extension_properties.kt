@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x2_dsl
 
-fun main(args: Array<String>) {
+fun main() {
     println(
             "abc 1234 def".digitsCount
     )

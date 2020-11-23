@@ -4,7 +4,7 @@ import org.apache.commons.io.IOUtils
 import org.apache.commons.io.input.AutoCloseInputStream
 import java.nio.charset.StandardCharsets
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] basic syntax, like Java
     try {
         // some code

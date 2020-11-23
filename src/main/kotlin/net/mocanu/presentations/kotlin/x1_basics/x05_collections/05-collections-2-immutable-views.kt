@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x1_basics.x05_collections
 
-fun main(args: Array<String>) {
+fun main() {
     val numbers = listOf(1, 2, 3)
 
     // [ ] "listOf" returns an immutable view (show type)

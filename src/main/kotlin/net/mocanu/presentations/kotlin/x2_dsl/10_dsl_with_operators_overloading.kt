@@ -3,7 +3,7 @@ package net.mocanu.presentations.kotlin.x2_dsl
 data class Node(val title: String,
                 val children: List<Node> = emptyList())
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] make the following code compilable
     // [ ] make it so that we can specify leafs with like this: -"item 1"
     // [ ] make it so that we can use - also in front of non-leafs

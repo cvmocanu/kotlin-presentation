@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x1_basics.x07_when
 
-fun main(args: Array<String>) {
+fun main() {
     val number = 15
     val validNumbers = listOf(15, 25, 35)
 

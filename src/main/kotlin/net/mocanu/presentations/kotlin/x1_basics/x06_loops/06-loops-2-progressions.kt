@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x1_basics.x06_loops
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] loop over a progression (interval inclusive at both ends)
     // [ ] ".." calls "rangeTo" on Int => show
     // [ ] no more primitives

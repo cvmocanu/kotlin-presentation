@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x2_dsl
 
-fun main(args: Array<String>) {
+fun main() {
     val colors = listOf("yellow", "green", "cyan", "red", "crimson")
 
     // [ ] explain "it"

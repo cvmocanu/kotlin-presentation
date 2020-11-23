@@ -7,7 +7,7 @@ data class Person(val name: String,
 data class Address(val addressLine1: String?,
                    val addressLine2: String?)
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] write missing code so that the following is compilable
     // val person: Person = person(name = "John Doe") {
     //     age = 15

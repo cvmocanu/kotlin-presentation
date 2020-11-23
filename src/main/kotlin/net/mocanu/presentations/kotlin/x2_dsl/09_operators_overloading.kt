@@ -2,7 +2,7 @@ package net.mocanu.presentations.kotlin.x2_dsl
 
 import java.math.BigDecimal
 
-fun main(args: Array<String>) {
+fun main() {
     val first: BigDecimal = BigDecimal.TEN
     val second = BigDecimal("25")
 

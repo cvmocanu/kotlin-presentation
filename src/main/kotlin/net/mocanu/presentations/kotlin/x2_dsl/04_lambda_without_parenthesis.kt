@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x2_dsl
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] note: parenthesis are not needed; this is used very much in DSLs
     // [ ] note "measureTimeMillis" and "measureNanoTime" are actually in the Kotlin standard library
 

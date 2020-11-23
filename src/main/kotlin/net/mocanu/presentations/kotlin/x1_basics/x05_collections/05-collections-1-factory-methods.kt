@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x1_basics.x05_collections
 
-fun main(args: Array<String>) {
+fun main() {
     // [ ] factory methods
     val numbers = listOf(1, 2, 3)
 

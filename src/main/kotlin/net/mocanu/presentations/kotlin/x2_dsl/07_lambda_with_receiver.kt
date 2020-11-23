@@ -1,6 +1,6 @@
 package net.mocanu.presentations.kotlin.x2_dsl
 
-fun main(args: Array<String>) {
+fun main() {
     val name = "Kotlin"
 
     // [ ] show and explain the following

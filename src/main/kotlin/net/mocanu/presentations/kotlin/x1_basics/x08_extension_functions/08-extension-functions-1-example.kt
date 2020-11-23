@@ -5,7 +5,7 @@ import net.mocanu.presentations.kotlin.x1_basics.x08_extension_functions.my_pack
 import org.apache.commons.lang3.StringUtils
 import org.apache.commons.lang3.text.WordUtils
 
-fun main(args: Array<String>) {
+fun main() {
     val name = "  jOHn dOE     "
 
     // [ ] run & show what it prints
