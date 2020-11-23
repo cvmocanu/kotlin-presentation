@@ -14,19 +14,19 @@ fun main() {
 
     // [ ] get/set completion (kitchen vs livingRoom)
     // [ ] null-safe de-referencing operator (kitchen sink color)
-    // val sinkColor: String? =
+    //val kitchenSinkColor: String? =
 
     // [ ] show Java alternative
-                                                                                                                                                                                                                                                val sinkColorLikeInJava: String?
-                                                                                                                                                                                                                                                if (house.kitchen != null && house.kitchen.sink != null) {
-                                                                                                                                                                                                                                                    sinkColorLikeInJava = house.kitchen.sink.color
-                                                                                                                                                                                                                                                } else {
-                                                                                                                                                                                                                                                    sinkColorLikeInJava = null
-                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                          val sinkColorLikeInJava: String?
+                                                                                                                                                                                                                                                                                                                                                          if (house.kitchen != null && house.kitchen.sink != null) {
+                                                                                                                                                                                                                                                                                                                                                              sinkColorLikeInJava = house.kitchen.sink.color
+                                                                                                                                                                                                                                                                                                                                                          } else {
+                                                                                                                                                                                                                                                                                                                                                              sinkColorLikeInJava = null
+                                                                                                                                                                                                                                                                                                                                                          }
 }
 
-data class House(val kitchen: Room? = null,
-                 var livingRoom: Room? = null)
+data class House(val kitchen: Room?,
+                 var livingRoom: Room)
 
 data class Room(val sink: Furniture? = null,
                 val cupboard: Furniture? = null,

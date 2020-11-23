@@ -10,4 +10,11 @@ fun main() {
     println(
             first.add(second)
     )
+
+    // make the following compile
+    //println(
+    //    1.toMyInt() + 2.toMyInt()
+    //)
 }
+
+data class MyInt(val value: Int)

@@ -14,9 +14,12 @@ fun main() {
         // optional finally block
     }
 
-    // [ ] throw as an expression + elvis operator
+    // [ ] throw as an expression + elvis operator (see the body of loadClasspathResource)
+    // [ ] show that the "inputStream" is not nullable after the elvis operator
 
     // [ ] no checked exceptions (but you can still document and catch them)
+    // [ ] show: KDoc is markdown instead of html
+    // throw Exception()
 }
 
 /**

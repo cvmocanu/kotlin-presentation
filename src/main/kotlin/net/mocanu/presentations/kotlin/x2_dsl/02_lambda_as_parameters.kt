@@ -5,14 +5,15 @@ fun main() {
 
     // [ ] write findFirst(list, lambda) that returns the first item from the list, or null if not found
     // [ ] show that we can put the last lambda outside the parenthesis
+    // [ ] show that Kotlin already has "firstOrNull"
     println(
-            findFirst(numbers, { it > 5 })
+            findFirstOrNull(numbers, { it > 5 })
     )
 }
 
 //region firstFirst function definition
-fun <T: Comparable<T>> findFirst(list: List<T>,
-                                 predicate: (item: T) -> Boolean): T? {
+fun <T: Comparable<T>> findFirstOrNull(list: List<T>,
+                                       predicate: (item: T) -> Boolean): T? {
     for (item in list) {
         if (predicate(item)) {
             return item

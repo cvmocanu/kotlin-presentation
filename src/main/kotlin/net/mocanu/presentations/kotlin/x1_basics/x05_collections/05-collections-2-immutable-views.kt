@@ -5,7 +5,9 @@ fun main() {
 
     // [ ] "listOf" returns an immutable view (show type)
     // [ ] explain: it's just a view
-//    numbers.add(4)
+    // [ ] make it compile with a downcast
+    // [ ] explain: views instead of separate collections for easy easy interop with Java
+    //numbers.add(4)
 
     // [ ] mutableListOf() returns a mutable view (show type)
     // [ ] Java alternative / API: Guava immutable collections

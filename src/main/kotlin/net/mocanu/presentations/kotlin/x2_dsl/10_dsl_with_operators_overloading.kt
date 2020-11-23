@@ -21,11 +21,11 @@ fun main() {
     // }
     //
     // println(
-    //         NodeRendered.render(root)
+    //         NodeRenderer.render(root)
     // )
 }
 
-//region DSL implementation (in case I forget)
+//region DSL implementation
 //operator fun String.invoke(init: NodeBuilder.() -> Unit): Node {
 //    val builder = NodeBuilder(title = this)
 //
@@ -53,7 +53,7 @@ fun main() {
 //}
 //endregion
 
-object NodeRendered {
+object NodeRenderer {
 
     fun render(root: Node): String {
         val destination = StringBuilder()
