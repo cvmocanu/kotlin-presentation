@@ -33,8 +33,6 @@ fun main() {
     // println(person)
 
     // [ ] refactor to hide the "build()" method from the API (in the public API, use an interface that doesn't have this method)
-
-    // [ ] show the SurePay algorithm test DSL
 }
 
 class PersonBuilder(private val name: String) {
