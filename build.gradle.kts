@@ -12,9 +12,6 @@ group = "net.mocanu.presentations"
 version = "develop-SNAPSHOT"
 description = "kotlin-presentation"
 
-//val implementation by configurations
-//val testImplementation by configurations
-
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
