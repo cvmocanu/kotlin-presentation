@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-   kotlin("jvm") version "1.4.20"
+   kotlin("jvm") version "1.6.10"
 }
 
 repositories {
@@ -28,7 +28,7 @@ extensions.getByType(JavaPluginExtension::class.java).sourceCompatibility = Java
 
 tasks.withType<KotlinCompile>().configureEach {
     kotlinOptions.suppressWarnings = true
-    kotlinOptions.apiVersion = "1.4"
+    kotlinOptions.apiVersion = "1.6"
     kotlinOptions.jvmTarget = javaVersion
     kotlinOptions.freeCompilerArgs = listOf(
         "-progressive"
